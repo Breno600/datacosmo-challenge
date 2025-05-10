@@ -1,0 +1,20 @@
+
+# Diretórios do Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos sensíveis
+*.pem
+*.key
+*.tfstate
+*.tfstate.*
+*.backup
+terraform.tfvars
+crash.log
+
+# Arquivos de sistema e IDEs
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.log
